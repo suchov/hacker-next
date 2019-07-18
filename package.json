@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "Hacker news made with nextjs",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
