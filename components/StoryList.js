@@ -20,10 +20,10 @@ const StoryList = ({ stories }) => (
       .story-list {
         padding: 0 1em;
       }
-      .stoty {
+      .story {
         padding: 1em 0;
       }
-      .stoy-title {
+      .story-title {
         font-size: 1rem;
         font-weight: 400;
         margin: 0;
