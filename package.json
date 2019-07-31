@@ -8,10 +8,13 @@
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "sw-precache-webpack-plugin": "^0.11.5"
   },
   "author": "Artem Sychov",
   "scripts": {
-    "dev": "next"
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
   }
 }
