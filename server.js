@@ -11,7 +11,7 @@ const handle = app.getRequestHandler();
 app.prepare().then(() => {
   http
     .createServer((req, res) => {
-      // Parse request url to get its pathname
+      // Parse request url to get its pathName
       const parseUrl = url.parse(req.url, true);
       const { pathName } = parseUrl;
 
